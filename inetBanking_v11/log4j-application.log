@@ -1058,4 +1058,876 @@
  2022-11-19 11:10:50,374 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
  2022-11-19 11:10:50,376 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
  2022-11-19 11:10:50,378 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+ 2022-11-25 10:55:43,538 DEBUG [TestNG-test=BankingApp Test-1] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+ 2022-11-25 10:55:43,549 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+ 2022-11-25 10:55:43,550 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+ 2022-11-25 10:55:43,560 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3f1cd30d
+ 2022-11-25 10:55:43,601 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+ 2022-11-25 10:55:43,602 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:954 - Java version: 17
+ 2022-11-25 10:55:43,606 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+ 2022-11-25 10:55:43,607 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+ 2022-11-25 10:55:43,612 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:202 - java.nio.Buffer.address: available
+ 2022-11-25 10:55:43,621 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+ 2022-11-25 10:55:43,623 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+ 2022-11-25 10:55:43,626 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2096442d
+ 2022-11-25 10:55:43,638 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+ 2022-11-25 10:55:43,638 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1103 - sun.misc.Unsafe: available
+ 2022-11-25 10:55:43,708 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1205 - maxDirectMemory: 2124414976 bytes (maybe)
+ 2022-11-25 10:55:43,710 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1224 - -Dio.netty.tmpdir: C:\Users\DELL\AppData\Local\Temp (java.io.tmpdir)
+ 2022-11-25 10:55:43,712 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1303 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+ 2022-11-25 10:55:43,715 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1063 - Platform: Windows
+ 2022-11-25 10:55:43,718 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+ 2022-11-25 10:55:43,719 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+ 2022-11-25 10:55:43,722 DEBUG [TestNG-test=BankingApp Test-1] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+ 2022-11-25 10:55:43,722 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+ 2022-11-25 10:55:43,742 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+ 2022-11-25 10:55:43,800 DEBUG [TestNG-test=BankingApp Test-1] InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+ 2022-11-25 10:55:43,801 DEBUG [TestNG-test=BankingApp Test-1] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+ 2022-11-25 10:55:44,241 DEBUG [TestNG-test=BankingApp Test-1] JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+ 2022-11-25 10:55:44,244 DEBUG [TestNG-test=BankingApp Test-1] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+ 2022-11-25 10:55:44,292 DEBUG [TestNG-test=BankingApp Test-1] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+ 2022-11-25 10:55:44,312 DEBUG [TestNG-test=BankingApp Test-1] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+ 2022-11-25 10:55:44,313 DEBUG [TestNG-test=BankingApp Test-1] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+ 2022-11-25 10:55:44,387 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 8
+ 2022-11-25 10:55:44,388 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 8
+ 2022-11-25 10:55:44,389 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+ 2022-11-25 10:55:44,391 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 11
+ 2022-11-25 10:55:44,393 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 16777216
+ 2022-11-25 10:55:44,398 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+ 2022-11-25 10:55:44,399 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+ 2022-11-25 10:55:44,400 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ 2022-11-25 10:55:44,402 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+ 2022-11-25 10:55:44,404 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+ 2022-11-25 10:55:44,405 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: true
+ 2022-11-25 10:55:44,405 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+ 2022-11-25 10:55:44,428 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+ 2022-11-25 10:55:44,428 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+ 2022-11-25 10:55:44,429 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+ 2022-11-25 10:55:45,975 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 8936 (auto-detected)
+ 2022-11-25 10:55:45,980 DEBUG [Forwarding newSession on session null to remote] NetUtil:135 - -Djava.net.preferIPv4Stack: false
+ 2022-11-25 10:55:45,980 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv6Addresses: false
+ 2022-11-25 10:55:45,995 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+ 2022-11-25 10:55:45,997 DEBUG [Forwarding newSession on session null to remote] NetUtil:187 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+ 2022-11-25 10:55:46,031 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: d8:fc:93:ff:fe:b5:f5:e5 (auto-detected)
+ 2022-11-25 10:55:46,103 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+ 2022-11-25 10:55:46,104 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+ 2022-11-25 10:55:46,106 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@22883425
+ 2022-11-25 10:55:46,151 DEBUG [AsyncHttpClient-1-2] Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+ 2022-11-25 10:55:46,151 DEBUG [AsyncHttpClient-1-2] Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+ 2022-11-25 10:55:46,152 DEBUG [AsyncHttpClient-1-2] Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+ 2022-11-25 10:55:46,153 DEBUG [AsyncHttpClient-1-2] Recycler:106 - -Dio.netty.recycler.ratio: 8
+ 2022-11-25 10:55:46,153 DEBUG [AsyncHttpClient-1-2] Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+ 2022-11-25 10:55:47,008 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+ 2022-11-25 10:55:47,225 DEBUG [TestNG-test=BankingApp Test-1] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x903993771413975a
+ 2022-11-25 10:55:54,310  INFO [TestNG-test=BankingApp Test-2] ebanking:21 - URL is opened
+ 2022-11-25 10:55:54,682  INFO [TestNG-test=BankingApp Test-2] ebanking:26 - Password is entered
+ 2022-11-25 10:56:02,136  INFO [TestNG-test=BankingApp Test-2] ebanking:34 - Login is pass - test
+ 2022-11-25 10:56:02,560 DEBUG [main] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-25 10:56:02,563 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+ 2022-11-25 10:56:02,569 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+ 2022-11-25 10:56:02,571 DEBUG [main] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+ 2022-11-25 10:56:02,837 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-25 10:56:02,839 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+ 2022-11-25 10:56:02,840 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+ 2022-11-25 10:56:02,841 DEBUG [main] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+ 2022-11-25 10:56:02,846 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-25 10:56:02,847 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+ 2022-11-25 10:56:02,849 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+ 2022-11-25 10:56:02,850 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+ 2022-11-25 10:56:02,863 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-25 10:56:02,864 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+ 2022-11-25 10:56:02,867 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+ 2022-11-25 10:56:02,871 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+ 2022-11-25 10:56:02,888 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-25 10:56:02,904 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+ 2022-11-25 10:56:02,921 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+ 2022-11-25 10:56:02,921 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+ 2022-11-25 10:56:02,959 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-25 10:56:02,961 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+ 2022-11-25 10:56:02,963 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+ 2022-11-25 10:56:02,966 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+ 2022-11-25 10:56:02,994 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2022-11-25 10:56:02,996 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-25 10:56:03,000 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+ 2022-11-25 10:56:03,002 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+ 2022-11-25 10:56:03,003 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+ 2022-11-25 10:56:03,013 DEBUG [main] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-25 10:56:03,017 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+ 2022-11-25 10:56:03,018 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+ 2022-11-25 10:56:03,018 DEBUG [main] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+ 2022-11-25 10:56:03,026 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-25 10:56:03,029 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+ 2022-11-25 10:56:03,030 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+ 2022-11-25 10:56:03,032 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+ 2022-11-25 10:56:03,039 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-25 10:56:03,042 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+ 2022-11-25 10:56:03,046 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+ 2022-11-25 10:56:03,047 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+ 2022-11-25 10:56:03,066 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-25 10:56:03,072 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+ 2022-11-25 10:56:03,073 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+ 2022-11-25 10:56:03,076 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+ 2022-11-27 22:00:24,594 DEBUG [TestNG-test=BankingApp Test-1] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+ 2022-11-27 22:00:24,604 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+ 2022-11-27 22:00:24,605 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+ 2022-11-27 22:00:24,616 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@41d151a8
+ 2022-11-27 22:00:24,654 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+ 2022-11-27 22:00:24,655 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:954 - Java version: 17
+ 2022-11-27 22:00:24,661 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+ 2022-11-27 22:00:24,663 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+ 2022-11-27 22:00:24,666 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:202 - java.nio.Buffer.address: available
+ 2022-11-27 22:00:24,672 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+ 2022-11-27 22:00:24,675 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+ 2022-11-27 22:00:24,679 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2096442d
+ 2022-11-27 22:00:24,684 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+ 2022-11-27 22:00:24,685 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1103 - sun.misc.Unsafe: available
+ 2022-11-27 22:00:24,753 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1205 - maxDirectMemory: 2124414976 bytes (maybe)
+ 2022-11-27 22:00:24,754 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1224 - -Dio.netty.tmpdir: C:\Users\DELL\AppData\Local\Temp (java.io.tmpdir)
+ 2022-11-27 22:00:24,755 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1303 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+ 2022-11-27 22:00:24,757 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1063 - Platform: Windows
+ 2022-11-27 22:00:24,759 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+ 2022-11-27 22:00:24,762 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+ 2022-11-27 22:00:24,767 DEBUG [TestNG-test=BankingApp Test-1] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+ 2022-11-27 22:00:24,768 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+ 2022-11-27 22:00:24,784 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+ 2022-11-27 22:00:24,818 DEBUG [TestNG-test=BankingApp Test-1] InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+ 2022-11-27 22:00:24,818 DEBUG [TestNG-test=BankingApp Test-1] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+ 2022-11-27 22:00:25,092 DEBUG [TestNG-test=BankingApp Test-1] JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+ 2022-11-27 22:00:25,093 DEBUG [TestNG-test=BankingApp Test-1] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+ 2022-11-27 22:00:25,142 DEBUG [TestNG-test=BankingApp Test-1] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+ 2022-11-27 22:00:25,164 DEBUG [TestNG-test=BankingApp Test-1] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+ 2022-11-27 22:00:25,164 DEBUG [TestNG-test=BankingApp Test-1] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+ 2022-11-27 22:00:25,244 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 8
+ 2022-11-27 22:00:25,245 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 8
+ 2022-11-27 22:00:25,246 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+ 2022-11-27 22:00:25,247 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 11
+ 2022-11-27 22:00:25,250 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 16777216
+ 2022-11-27 22:00:25,251 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+ 2022-11-27 22:00:25,253 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+ 2022-11-27 22:00:25,253 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ 2022-11-27 22:00:25,254 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+ 2022-11-27 22:00:25,255 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+ 2022-11-27 22:00:25,256 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: true
+ 2022-11-27 22:00:25,256 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+ 2022-11-27 22:00:25,283 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+ 2022-11-27 22:00:25,284 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+ 2022-11-27 22:00:25,285 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+ 2022-11-27 22:00:26,823 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 11744 (auto-detected)
+ 2022-11-27 22:00:26,826 DEBUG [Forwarding newSession on session null to remote] NetUtil:135 - -Djava.net.preferIPv4Stack: false
+ 2022-11-27 22:00:26,827 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv6Addresses: false
+ 2022-11-27 22:00:26,839 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+ 2022-11-27 22:00:26,840 DEBUG [Forwarding newSession on session null to remote] NetUtil:187 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+ 2022-11-27 22:00:26,869 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: d8:fc:93:ff:fe:b5:f5:e5 (auto-detected)
+ 2022-11-27 22:00:26,940 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+ 2022-11-27 22:00:26,940 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+ 2022-11-27 22:00:26,941 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4d2a6444
+ 2022-11-27 22:00:26,978 DEBUG [AsyncHttpClient-1-2] Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+ 2022-11-27 22:00:26,979 DEBUG [AsyncHttpClient-1-2] Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+ 2022-11-27 22:00:26,979 DEBUG [AsyncHttpClient-1-2] Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+ 2022-11-27 22:00:26,980 DEBUG [AsyncHttpClient-1-2] Recycler:106 - -Dio.netty.recycler.ratio: 8
+ 2022-11-27 22:00:26,980 DEBUG [AsyncHttpClient-1-2] Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+ 2022-11-27 22:00:27,911 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+ 2022-11-27 22:00:28,126 DEBUG [TestNG-test=BankingApp Test-1] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x645cad2cfec6aa30
+ 2022-11-27 22:00:35,392  INFO [TestNG-test=BankingApp Test-2] ebanking:21 - URL is opened
+ 2022-11-27 22:00:35,747  INFO [TestNG-test=BankingApp Test-2] ebanking:26 - Password is entered
+ 2022-11-27 22:00:43,218  INFO [TestNG-test=BankingApp Test-2] ebanking:34 - Login is pass - test
+ 2022-11-27 22:00:43,673 DEBUG [main] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:00:43,675 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+ 2022-11-27 22:00:43,682 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+ 2022-11-27 22:00:43,683 DEBUG [main] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+ 2022-11-27 22:00:43,916 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:00:43,918 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+ 2022-11-27 22:00:43,919 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+ 2022-11-27 22:00:43,920 DEBUG [main] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+ 2022-11-27 22:00:43,925 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:00:43,927 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+ 2022-11-27 22:00:43,930 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+ 2022-11-27 22:00:43,931 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+ 2022-11-27 22:00:43,942 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:00:43,943 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+ 2022-11-27 22:00:43,947 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+ 2022-11-27 22:00:43,948 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+ 2022-11-27 22:00:43,966 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:00:43,970 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+ 2022-11-27 22:00:43,981 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+ 2022-11-27 22:00:43,982 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+ 2022-11-27 22:00:44,009 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:00:44,011 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+ 2022-11-27 22:00:44,014 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+ 2022-11-27 22:00:44,015 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+ 2022-11-27 22:00:44,046 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2022-11-27 22:00:44,048 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:00:44,052 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+ 2022-11-27 22:00:44,054 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+ 2022-11-27 22:00:44,055 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+ 2022-11-27 22:00:44,065 DEBUG [main] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:00:44,066 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+ 2022-11-27 22:00:44,067 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+ 2022-11-27 22:00:44,068 DEBUG [main] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+ 2022-11-27 22:00:44,079 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:00:44,082 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+ 2022-11-27 22:00:44,084 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+ 2022-11-27 22:00:44,087 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+ 2022-11-27 22:00:44,094 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:00:44,099 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+ 2022-11-27 22:00:44,109 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+ 2022-11-27 22:00:44,110 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+ 2022-11-27 22:00:44,131 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:00:44,136 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+ 2022-11-27 22:00:44,140 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+ 2022-11-27 22:00:44,141 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+ 2022-11-27 22:35:44,285 DEBUG [TestNG-test=BankingApp Test-1] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+ 2022-11-27 22:35:44,296 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+ 2022-11-27 22:35:44,297 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+ 2022-11-27 22:35:44,310 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@455f411e
+ 2022-11-27 22:35:44,353 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+ 2022-11-27 22:35:44,354 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:954 - Java version: 17
+ 2022-11-27 22:35:44,361 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+ 2022-11-27 22:35:44,364 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+ 2022-11-27 22:35:44,366 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:202 - java.nio.Buffer.address: available
+ 2022-11-27 22:35:44,372 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+ 2022-11-27 22:35:44,376 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+ 2022-11-27 22:35:44,379 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @609db43b
+ 2022-11-27 22:35:44,382 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+ 2022-11-27 22:35:44,383 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1103 - sun.misc.Unsafe: available
+ 2022-11-27 22:35:44,385 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1205 - maxDirectMemory: 2124414976 bytes (maybe)
+ 2022-11-27 22:35:44,386 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1224 - -Dio.netty.tmpdir: C:\Users\DELL\AppData\Local\Temp (java.io.tmpdir)
+ 2022-11-27 22:35:44,387 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1303 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+ 2022-11-27 22:35:44,389 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1063 - Platform: Windows
+ 2022-11-27 22:35:44,391 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+ 2022-11-27 22:35:44,393 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+ 2022-11-27 22:35:44,395 DEBUG [TestNG-test=BankingApp Test-1] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+ 2022-11-27 22:35:44,396 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+ 2022-11-27 22:35:44,405 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+ 2022-11-27 22:35:44,435 DEBUG [TestNG-test=BankingApp Test-1] InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+ 2022-11-27 22:35:44,436 DEBUG [TestNG-test=BankingApp Test-1] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+ 2022-11-27 22:35:44,756 DEBUG [TestNG-test=BankingApp Test-1] JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+ 2022-11-27 22:35:44,757 DEBUG [TestNG-test=BankingApp Test-1] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+ 2022-11-27 22:35:44,793 DEBUG [TestNG-test=BankingApp Test-1] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+ 2022-11-27 22:35:44,804 DEBUG [TestNG-test=BankingApp Test-1] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+ 2022-11-27 22:35:44,804 DEBUG [TestNG-test=BankingApp Test-1] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+ 2022-11-27 22:35:44,853 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 8
+ 2022-11-27 22:35:44,854 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 8
+ 2022-11-27 22:35:44,855 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+ 2022-11-27 22:35:44,855 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 11
+ 2022-11-27 22:35:44,856 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 16777216
+ 2022-11-27 22:35:44,856 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+ 2022-11-27 22:35:44,857 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+ 2022-11-27 22:35:44,857 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ 2022-11-27 22:35:44,858 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+ 2022-11-27 22:35:44,859 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+ 2022-11-27 22:35:44,860 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: true
+ 2022-11-27 22:35:44,860 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+ 2022-11-27 22:35:44,875 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+ 2022-11-27 22:35:44,876 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+ 2022-11-27 22:35:44,877 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+ 2022-11-27 22:35:45,366 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 6240 (auto-detected)
+ 2022-11-27 22:35:45,369 DEBUG [Forwarding newSession on session null to remote] NetUtil:135 - -Djava.net.preferIPv4Stack: false
+ 2022-11-27 22:35:45,369 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv6Addresses: false
+ 2022-11-27 22:35:45,380 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+ 2022-11-27 22:35:45,381 DEBUG [Forwarding newSession on session null to remote] NetUtil:187 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+ 2022-11-27 22:35:45,413 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: d8:fc:93:ff:fe:b5:f5:e5 (auto-detected)
+ 2022-11-27 22:35:45,477 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+ 2022-11-27 22:35:45,478 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+ 2022-11-27 22:35:45,478 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@52d38f12
+ 2022-11-27 22:35:45,509 DEBUG [AsyncHttpClient-1-2] Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+ 2022-11-27 22:35:45,510 DEBUG [AsyncHttpClient-1-2] Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+ 2022-11-27 22:35:45,511 DEBUG [AsyncHttpClient-1-2] Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+ 2022-11-27 22:35:45,512 DEBUG [AsyncHttpClient-1-2] Recycler:106 - -Dio.netty.recycler.ratio: 8
+ 2022-11-27 22:35:45,512 DEBUG [AsyncHttpClient-1-2] Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+ 2022-11-27 22:35:46,599 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+ 2022-11-27 22:35:46,814 DEBUG [TestNG-test=BankingApp Test-1] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x25137ce9171c25bf
+ 2022-11-27 22:35:54,246  INFO [TestNG-test=BankingApp Test-2] ebanking:21 - URL is opened
+ 2022-11-27 22:35:55,098  INFO [TestNG-test=BankingApp Test-2] ebanking:26 - Password is entered
+ 2022-11-27 22:36:02,450  INFO [TestNG-test=BankingApp Test-2] ebanking:34 - Login is pass - test
+ 2022-11-27 22:36:02,857 DEBUG [main] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:36:02,859 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+ 2022-11-27 22:36:02,861 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+ 2022-11-27 22:36:02,861 DEBUG [main] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+ 2022-11-27 22:36:03,117 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:36:03,119 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+ 2022-11-27 22:36:03,120 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+ 2022-11-27 22:36:03,121 DEBUG [main] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+ 2022-11-27 22:36:03,178 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:36:03,180 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+ 2022-11-27 22:36:03,181 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+ 2022-11-27 22:36:03,181 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+ 2022-11-27 22:36:03,194 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:36:03,195 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+ 2022-11-27 22:36:03,196 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+ 2022-11-27 22:36:03,197 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+ 2022-11-27 22:36:03,209 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:36:03,210 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+ 2022-11-27 22:36:03,211 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+ 2022-11-27 22:36:03,212 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+ 2022-11-27 22:36:03,229 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:36:03,230 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+ 2022-11-27 22:36:03,231 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+ 2022-11-27 22:36:03,232 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+ 2022-11-27 22:36:03,300 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2022-11-27 22:36:03,303 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:36:03,305 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+ 2022-11-27 22:36:03,307 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+ 2022-11-27 22:36:03,307 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+ 2022-11-27 22:36:03,313 DEBUG [main] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:36:03,314 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+ 2022-11-27 22:36:03,316 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+ 2022-11-27 22:36:03,316 DEBUG [main] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+ 2022-11-27 22:36:03,326 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:36:03,327 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+ 2022-11-27 22:36:03,329 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+ 2022-11-27 22:36:03,330 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+ 2022-11-27 22:36:03,336 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:36:03,337 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+ 2022-11-27 22:36:03,339 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+ 2022-11-27 22:36:03,340 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+ 2022-11-27 22:36:03,355 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:36:03,356 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+ 2022-11-27 22:36:03,357 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+ 2022-11-27 22:36:03,358 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+ 2022-11-27 22:47:41,719 DEBUG [TestNG-test=BankingApp Test-1] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+ 2022-11-27 22:47:41,729 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+ 2022-11-27 22:47:41,731 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+ 2022-11-27 22:47:41,741 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@734ca4ed
+ 2022-11-27 22:47:41,781 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+ 2022-11-27 22:47:41,790 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:954 - Java version: 11
+ 2022-11-27 22:47:41,802 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+ 2022-11-27 22:47:41,805 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+ 2022-11-27 22:47:41,807 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:202 - java.nio.Buffer.address: available
+ 2022-11-27 22:47:41,808 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+ 2022-11-27 22:47:41,810 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+ 2022-11-27 22:47:41,814 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3f303f7b
+ 2022-11-27 22:47:41,824 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+ 2022-11-27 22:47:41,825 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1103 - sun.misc.Unsafe: available
+ 2022-11-27 22:47:41,828 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1205 - maxDirectMemory: 2124414976 bytes (maybe)
+ 2022-11-27 22:47:41,830 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1224 - -Dio.netty.tmpdir: C:\Users\DELL\AppData\Local\Temp (java.io.tmpdir)
+ 2022-11-27 22:47:41,831 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1303 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+ 2022-11-27 22:47:41,837 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1063 - Platform: Windows
+ 2022-11-27 22:47:41,839 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+ 2022-11-27 22:47:41,840 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+ 2022-11-27 22:47:41,843 DEBUG [TestNG-test=BankingApp Test-1] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+ 2022-11-27 22:47:41,843 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+ 2022-11-27 22:47:41,864 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+ 2022-11-27 22:47:41,905 DEBUG [TestNG-test=BankingApp Test-1] InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+ 2022-11-27 22:47:41,906 DEBUG [TestNG-test=BankingApp Test-1] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+ 2022-11-27 22:47:42,182 DEBUG [TestNG-test=BankingApp Test-1] JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+ 2022-11-27 22:47:42,182 DEBUG [TestNG-test=BankingApp Test-1] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+ 2022-11-27 22:47:42,217 DEBUG [TestNG-test=BankingApp Test-1] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+ 2022-11-27 22:47:42,230 DEBUG [TestNG-test=BankingApp Test-1] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+ 2022-11-27 22:47:42,231 DEBUG [TestNG-test=BankingApp Test-1] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+ 2022-11-27 22:47:42,287 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 8
+ 2022-11-27 22:47:42,288 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 8
+ 2022-11-27 22:47:42,288 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+ 2022-11-27 22:47:42,289 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 11
+ 2022-11-27 22:47:42,289 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 16777216
+ 2022-11-27 22:47:42,290 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+ 2022-11-27 22:47:42,290 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+ 2022-11-27 22:47:42,291 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ 2022-11-27 22:47:42,291 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+ 2022-11-27 22:47:42,292 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+ 2022-11-27 22:47:42,292 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: true
+ 2022-11-27 22:47:42,292 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+ 2022-11-27 22:47:42,305 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+ 2022-11-27 22:47:42,305 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+ 2022-11-27 22:47:42,306 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+ 2022-11-27 22:47:42,805 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 10772 (auto-detected)
+ 2022-11-27 22:47:42,809 DEBUG [Forwarding newSession on session null to remote] NetUtil:135 - -Djava.net.preferIPv4Stack: false
+ 2022-11-27 22:47:42,809 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv6Addresses: false
+ 2022-11-27 22:47:43,018 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+ 2022-11-27 22:47:43,020 DEBUG [Forwarding newSession on session null to remote] NetUtil:187 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+ 2022-11-27 22:47:43,213 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: d8:fc:93:ff:fe:b5:f5:e5 (auto-detected)
+ 2022-11-27 22:47:43,274 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+ 2022-11-27 22:47:43,277 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+ 2022-11-27 22:47:43,277 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@8107e38
+ 2022-11-27 22:47:43,316 DEBUG [AsyncHttpClient-1-2] Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+ 2022-11-27 22:47:43,317 DEBUG [AsyncHttpClient-1-2] Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+ 2022-11-27 22:47:43,317 DEBUG [AsyncHttpClient-1-2] Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+ 2022-11-27 22:47:43,317 DEBUG [AsyncHttpClient-1-2] Recycler:106 - -Dio.netty.recycler.ratio: 8
+ 2022-11-27 22:47:43,317 DEBUG [AsyncHttpClient-1-2] Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+ 2022-11-27 22:47:44,113 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+ 2022-11-27 22:47:44,299 DEBUG [TestNG-test=BankingApp Test-1] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0xfdf63cf6e8acbe7a
+ 2022-11-27 22:47:51,734  INFO [TestNG-test=BankingApp Test-2] ebanking:21 - URL is opened
+ 2022-11-27 22:47:52,425  INFO [TestNG-test=BankingApp Test-2] ebanking:26 - Password is entered
+ 2022-11-27 22:48:00,187  INFO [TestNG-test=BankingApp Test-2] ebanking:34 - Login is pass - test
+ 2022-11-27 22:48:00,602 DEBUG [main] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:48:00,611 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+ 2022-11-27 22:48:00,616 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+ 2022-11-27 22:48:00,617 DEBUG [main] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+ 2022-11-27 22:48:00,926 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:48:00,928 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+ 2022-11-27 22:48:00,929 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+ 2022-11-27 22:48:00,929 DEBUG [main] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+ 2022-11-27 22:48:00,934 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:48:00,936 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+ 2022-11-27 22:48:00,937 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+ 2022-11-27 22:48:00,937 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+ 2022-11-27 22:48:00,948 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:48:00,950 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+ 2022-11-27 22:48:00,951 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+ 2022-11-27 22:48:00,952 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+ 2022-11-27 22:48:00,964 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:48:00,966 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+ 2022-11-27 22:48:00,967 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+ 2022-11-27 22:48:00,968 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+ 2022-11-27 22:48:00,987 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:48:00,989 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+ 2022-11-27 22:48:00,990 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+ 2022-11-27 22:48:00,991 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+ 2022-11-27 22:48:01,012 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2022-11-27 22:48:01,013 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:48:01,014 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+ 2022-11-27 22:48:01,018 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+ 2022-11-27 22:48:01,020 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+ 2022-11-27 22:48:01,032 DEBUG [main] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:48:01,034 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+ 2022-11-27 22:48:01,035 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+ 2022-11-27 22:48:01,035 DEBUG [main] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+ 2022-11-27 22:48:01,051 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:48:01,054 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+ 2022-11-27 22:48:01,056 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+ 2022-11-27 22:48:01,056 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+ 2022-11-27 22:48:01,065 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:48:01,066 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+ 2022-11-27 22:48:01,067 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+ 2022-11-27 22:48:01,067 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+ 2022-11-27 22:48:01,085 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:48:01,086 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+ 2022-11-27 22:48:01,087 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+ 2022-11-27 22:48:01,087 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+ 2022-11-27 22:51:10,313 DEBUG [TestNG-test=BankingApp Test-1] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+ 2022-11-27 22:51:10,343 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+ 2022-11-27 22:51:10,348 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+ 2022-11-27 22:51:10,391 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@17f9924f
+ 2022-11-27 22:51:10,456 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+ 2022-11-27 22:51:10,460 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:954 - Java version: 11
+ 2022-11-27 22:51:10,480 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+ 2022-11-27 22:51:10,482 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+ 2022-11-27 22:51:10,485 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:202 - java.nio.Buffer.address: available
+ 2022-11-27 22:51:10,487 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+ 2022-11-27 22:51:10,489 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+ 2022-11-27 22:51:10,492 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @a282ba1
+ 2022-11-27 22:51:10,495 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+ 2022-11-27 22:51:10,496 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1103 - sun.misc.Unsafe: available
+ 2022-11-27 22:51:10,499 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1205 - maxDirectMemory: 2124414976 bytes (maybe)
+ 2022-11-27 22:51:10,503 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1224 - -Dio.netty.tmpdir: C:\Users\DELL\AppData\Local\Temp (java.io.tmpdir)
+ 2022-11-27 22:51:10,506 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1303 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+ 2022-11-27 22:51:10,509 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1063 - Platform: Windows
+ 2022-11-27 22:51:10,540 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+ 2022-11-27 22:51:10,543 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+ 2022-11-27 22:51:10,547 DEBUG [TestNG-test=BankingApp Test-1] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+ 2022-11-27 22:51:10,549 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+ 2022-11-27 22:51:10,566 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+ 2022-11-27 22:51:10,610 DEBUG [TestNG-test=BankingApp Test-1] InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+ 2022-11-27 22:51:10,611 DEBUG [TestNG-test=BankingApp Test-1] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+ 2022-11-27 22:51:10,981 DEBUG [TestNG-test=BankingApp Test-1] JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+ 2022-11-27 22:51:10,982 DEBUG [TestNG-test=BankingApp Test-1] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+ 2022-11-27 22:51:11,027 DEBUG [TestNG-test=BankingApp Test-1] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+ 2022-11-27 22:51:11,041 DEBUG [TestNG-test=BankingApp Test-1] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+ 2022-11-27 22:51:11,042 DEBUG [TestNG-test=BankingApp Test-1] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+ 2022-11-27 22:51:11,107 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 8
+ 2022-11-27 22:51:11,107 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 8
+ 2022-11-27 22:51:11,108 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+ 2022-11-27 22:51:11,109 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 11
+ 2022-11-27 22:51:11,110 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 16777216
+ 2022-11-27 22:51:11,111 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+ 2022-11-27 22:51:11,112 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+ 2022-11-27 22:51:11,113 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ 2022-11-27 22:51:11,113 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+ 2022-11-27 22:51:11,114 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+ 2022-11-27 22:51:11,115 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: true
+ 2022-11-27 22:51:11,115 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+ 2022-11-27 22:51:11,146 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+ 2022-11-27 22:51:11,146 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+ 2022-11-27 22:51:11,147 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+ 2022-11-27 22:51:12,010 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 328 (auto-detected)
+ 2022-11-27 22:51:12,013 DEBUG [Forwarding newSession on session null to remote] NetUtil:135 - -Djava.net.preferIPv4Stack: false
+ 2022-11-27 22:51:12,015 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv6Addresses: false
+ 2022-11-27 22:51:12,305 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+ 2022-11-27 22:51:12,306 DEBUG [Forwarding newSession on session null to remote] NetUtil:187 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+ 2022-11-27 22:51:12,529 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: d8:fc:93:ff:fe:b5:f5:e5 (auto-detected)
+ 2022-11-27 22:51:12,630 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+ 2022-11-27 22:51:12,632 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+ 2022-11-27 22:51:12,632 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@55082ac1
+ 2022-11-27 22:51:12,686 DEBUG [AsyncHttpClient-1-2] Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+ 2022-11-27 22:51:12,691 DEBUG [AsyncHttpClient-1-2] Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+ 2022-11-27 22:51:12,692 DEBUG [AsyncHttpClient-1-2] Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+ 2022-11-27 22:51:12,693 DEBUG [AsyncHttpClient-1-2] Recycler:106 - -Dio.netty.recycler.ratio: 8
+ 2022-11-27 22:51:12,693 DEBUG [AsyncHttpClient-1-2] Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+ 2022-11-27 22:51:13,884 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+ 2022-11-27 22:51:14,308 DEBUG [TestNG-test=BankingApp Test-1] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x90c449e8f162a21a
+ 2022-11-27 22:51:22,152  INFO [TestNG-test=BankingApp Test-2] ebanking:21 - URL is opened
+ 2022-11-27 22:51:24,295  INFO [TestNG-test=BankingApp Test-2] ebanking:26 - Password is entered
+ 2022-11-27 22:51:33,159  INFO [TestNG-test=BankingApp Test-2] ebanking:34 - Login is pass - test
+ 2022-11-27 22:51:33,626 DEBUG [main] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:51:33,631 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+ 2022-11-27 22:51:33,636 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+ 2022-11-27 22:51:33,637 DEBUG [main] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+ 2022-11-27 22:51:34,004 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:51:34,007 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+ 2022-11-27 22:51:34,010 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+ 2022-11-27 22:51:34,010 DEBUG [main] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+ 2022-11-27 22:51:34,019 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:51:34,020 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+ 2022-11-27 22:51:34,022 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+ 2022-11-27 22:51:34,023 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+ 2022-11-27 22:51:34,037 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:51:34,039 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+ 2022-11-27 22:51:34,040 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+ 2022-11-27 22:51:34,041 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+ 2022-11-27 22:51:34,054 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:51:34,056 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+ 2022-11-27 22:51:34,057 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+ 2022-11-27 22:51:34,058 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+ 2022-11-27 22:51:34,090 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:51:34,092 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+ 2022-11-27 22:51:34,095 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+ 2022-11-27 22:51:34,098 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+ 2022-11-27 22:51:34,149 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2022-11-27 22:51:34,152 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:51:34,153 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+ 2022-11-27 22:51:34,155 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+ 2022-11-27 22:51:34,156 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+ 2022-11-27 22:51:34,161 DEBUG [main] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:51:34,164 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+ 2022-11-27 22:51:34,165 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+ 2022-11-27 22:51:34,166 DEBUG [main] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+ 2022-11-27 22:51:34,174 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:51:34,175 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+ 2022-11-27 22:51:34,176 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+ 2022-11-27 22:51:34,177 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+ 2022-11-27 22:51:34,183 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:51:34,219 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+ 2022-11-27 22:51:34,222 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+ 2022-11-27 22:51:34,222 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+ 2022-11-27 22:51:34,241 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-27 22:51:34,243 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+ 2022-11-27 22:51:34,244 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+ 2022-11-27 22:51:34,245 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+ 2022-11-28 11:01:50,386 DEBUG [TestNG-test=BankingApp Test-1] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+ 2022-11-28 11:01:50,433 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+ 2022-11-28 11:01:50,436 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+ 2022-11-28 11:01:50,447 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6f7c6457
+ 2022-11-28 11:01:50,486 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+ 2022-11-28 11:01:50,487 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:954 - Java version: 11
+ 2022-11-28 11:01:50,510 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+ 2022-11-28 11:01:50,523 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+ 2022-11-28 11:01:50,528 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:202 - java.nio.Buffer.address: available
+ 2022-11-28 11:01:50,533 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+ 2022-11-28 11:01:50,537 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+ 2022-11-28 11:01:50,540 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @69df9971
+ 2022-11-28 11:01:50,541 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+ 2022-11-28 11:01:50,542 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1103 - sun.misc.Unsafe: available
+ 2022-11-28 11:01:50,545 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1205 - maxDirectMemory: 2124414976 bytes (maybe)
+ 2022-11-28 11:01:50,546 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1224 - -Dio.netty.tmpdir: C:\Users\DELL\AppData\Local\Temp (java.io.tmpdir)
+ 2022-11-28 11:01:50,547 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1303 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+ 2022-11-28 11:01:50,548 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1063 - Platform: Windows
+ 2022-11-28 11:01:50,550 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+ 2022-11-28 11:01:50,550 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+ 2022-11-28 11:01:50,553 DEBUG [TestNG-test=BankingApp Test-1] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+ 2022-11-28 11:01:50,554 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+ 2022-11-28 11:01:50,565 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+ 2022-11-28 11:01:50,593 DEBUG [TestNG-test=BankingApp Test-1] InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+ 2022-11-28 11:01:50,594 DEBUG [TestNG-test=BankingApp Test-1] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+ 2022-11-28 11:01:50,927 DEBUG [TestNG-test=BankingApp Test-1] JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+ 2022-11-28 11:01:50,928 DEBUG [TestNG-test=BankingApp Test-1] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+ 2022-11-28 11:01:50,964 DEBUG [TestNG-test=BankingApp Test-1] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+ 2022-11-28 11:01:50,985 DEBUG [TestNG-test=BankingApp Test-1] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+ 2022-11-28 11:01:50,986 DEBUG [TestNG-test=BankingApp Test-1] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+ 2022-11-28 11:01:51,037 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 8
+ 2022-11-28 11:01:51,038 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 8
+ 2022-11-28 11:01:51,042 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+ 2022-11-28 11:01:51,043 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 11
+ 2022-11-28 11:01:51,044 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 16777216
+ 2022-11-28 11:01:51,045 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+ 2022-11-28 11:01:51,046 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+ 2022-11-28 11:01:51,046 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ 2022-11-28 11:01:51,048 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+ 2022-11-28 11:01:51,048 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+ 2022-11-28 11:01:51,049 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: true
+ 2022-11-28 11:01:51,050 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+ 2022-11-28 11:01:51,071 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+ 2022-11-28 11:01:51,072 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+ 2022-11-28 11:01:51,073 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+ 2022-11-28 11:01:52,668 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 13588 (auto-detected)
+ 2022-11-28 11:01:52,672 DEBUG [Forwarding newSession on session null to remote] NetUtil:135 - -Djava.net.preferIPv4Stack: false
+ 2022-11-28 11:01:52,673 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv6Addresses: false
+ 2022-11-28 11:01:52,976 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+ 2022-11-28 11:01:52,978 DEBUG [Forwarding newSession on session null to remote] NetUtil:187 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+ 2022-11-28 11:01:53,201 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: d8:fc:93:ff:fe:b5:f5:e5 (auto-detected)
+ 2022-11-28 11:01:53,284 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+ 2022-11-28 11:01:53,286 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+ 2022-11-28 11:01:53,286 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5417eb29
+ 2022-11-28 11:01:53,330 DEBUG [AsyncHttpClient-1-2] Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+ 2022-11-28 11:01:53,331 DEBUG [AsyncHttpClient-1-2] Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+ 2022-11-28 11:01:53,331 DEBUG [AsyncHttpClient-1-2] Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+ 2022-11-28 11:01:53,332 DEBUG [AsyncHttpClient-1-2] Recycler:106 - -Dio.netty.recycler.ratio: 8
+ 2022-11-28 11:01:53,332 DEBUG [AsyncHttpClient-1-2] Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+ 2022-11-28 11:01:54,573 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+ 2022-11-28 11:01:54,853 DEBUG [TestNG-test=BankingApp Test-1] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x0ad682460922dd05
+ 2022-11-28 11:02:02,209  INFO [TestNG-test=BankingApp Test-2] ebanking:21 - URL is opened
+ 2022-11-28 11:02:02,834  INFO [TestNG-test=BankingApp Test-2] ebanking:26 - Password is entered
+ 2022-11-28 11:02:14,960  INFO [TestNG-test=BankingApp Test-2] ebanking:34 - Login is pass - test
+ 2022-11-28 11:02:15,416 DEBUG [main] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:02:15,419 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+ 2022-11-28 11:02:15,424 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+ 2022-11-28 11:02:15,425 DEBUG [main] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+ 2022-11-28 11:02:15,778 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:02:15,780 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+ 2022-11-28 11:02:15,782 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+ 2022-11-28 11:02:15,783 DEBUG [main] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+ 2022-11-28 11:02:15,789 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:02:15,790 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+ 2022-11-28 11:02:15,792 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+ 2022-11-28 11:02:15,793 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+ 2022-11-28 11:02:15,808 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:02:15,810 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+ 2022-11-28 11:02:15,818 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+ 2022-11-28 11:02:15,820 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+ 2022-11-28 11:02:15,847 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:02:15,849 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+ 2022-11-28 11:02:15,853 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+ 2022-11-28 11:02:15,853 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+ 2022-11-28 11:02:15,930 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:02:15,932 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+ 2022-11-28 11:02:15,935 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+ 2022-11-28 11:02:15,936 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+ 2022-11-28 11:02:15,975 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2022-11-28 11:02:15,977 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:02:15,978 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+ 2022-11-28 11:02:15,979 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+ 2022-11-28 11:02:15,980 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+ 2022-11-28 11:02:15,987 DEBUG [main] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:02:15,988 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+ 2022-11-28 11:02:15,989 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+ 2022-11-28 11:02:15,990 DEBUG [main] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+ 2022-11-28 11:02:15,996 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:02:16,017 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+ 2022-11-28 11:02:16,018 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+ 2022-11-28 11:02:16,022 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+ 2022-11-28 11:02:16,027 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:02:16,028 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+ 2022-11-28 11:02:16,029 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+ 2022-11-28 11:02:16,030 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+ 2022-11-28 11:02:16,049 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:02:16,051 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+ 2022-11-28 11:02:16,052 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+ 2022-11-28 11:02:16,052 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+ 2022-11-28 11:31:14,418 DEBUG [TestNG-test=BankingApp Test-1] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+ 2022-11-28 11:31:14,436 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+ 2022-11-28 11:31:14,437 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+ 2022-11-28 11:31:14,449 DEBUG [TestNG-test=BankingApp Test-1] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@b262419
+ 2022-11-28 11:31:14,508 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+ 2022-11-28 11:31:14,509 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:954 - Java version: 11
+ 2022-11-28 11:31:14,515 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+ 2022-11-28 11:31:14,518 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+ 2022-11-28 11:31:14,520 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:202 - java.nio.Buffer.address: available
+ 2022-11-28 11:31:14,525 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+ 2022-11-28 11:31:14,527 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+ 2022-11-28 11:31:14,530 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @4b81bdf6
+ 2022-11-28 11:31:14,533 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+ 2022-11-28 11:31:14,534 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1103 - sun.misc.Unsafe: available
+ 2022-11-28 11:31:14,536 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1205 - maxDirectMemory: 2124414976 bytes (maybe)
+ 2022-11-28 11:31:14,538 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1224 - -Dio.netty.tmpdir: C:\Windows\TEMP (java.io.tmpdir)
+ 2022-11-28 11:31:14,543 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1303 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+ 2022-11-28 11:31:14,552 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:1063 - Platform: Windows
+ 2022-11-28 11:31:14,555 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+ 2022-11-28 11:31:14,556 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+ 2022-11-28 11:31:14,560 DEBUG [TestNG-test=BankingApp Test-1] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+ 2022-11-28 11:31:14,561 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+ 2022-11-28 11:31:14,582 DEBUG [TestNG-test=BankingApp Test-1] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+ 2022-11-28 11:31:14,664 DEBUG [TestNG-test=BankingApp Test-1] InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+ 2022-11-28 11:31:14,665 DEBUG [TestNG-test=BankingApp Test-1] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+ 2022-11-28 11:31:15,115 DEBUG [TestNG-test=BankingApp Test-1] JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+ 2022-11-28 11:31:15,115 DEBUG [TestNG-test=BankingApp Test-1] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+ 2022-11-28 11:31:15,178 DEBUG [TestNG-test=BankingApp Test-1] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+ 2022-11-28 11:31:15,202 DEBUG [TestNG-test=BankingApp Test-1] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+ 2022-11-28 11:31:15,203 DEBUG [TestNG-test=BankingApp Test-1] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+ 2022-11-28 11:31:15,294 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 8
+ 2022-11-28 11:31:15,295 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 8
+ 2022-11-28 11:31:15,299 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+ 2022-11-28 11:31:15,299 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 11
+ 2022-11-28 11:31:15,300 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 16777216
+ 2022-11-28 11:31:15,302 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+ 2022-11-28 11:31:15,303 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+ 2022-11-28 11:31:15,306 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ 2022-11-28 11:31:15,309 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+ 2022-11-28 11:31:15,310 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+ 2022-11-28 11:31:15,311 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: true
+ 2022-11-28 11:31:15,312 DEBUG [TestNG-test=BankingApp Test-1] PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+ 2022-11-28 11:31:15,337 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+ 2022-11-28 11:31:15,338 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+ 2022-11-28 11:31:15,339 DEBUG [TestNG-test=BankingApp Test-1] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+ 2022-11-28 11:31:16,300 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 7980 (auto-detected)
+ 2022-11-28 11:31:16,305 DEBUG [Forwarding newSession on session null to remote] NetUtil:135 - -Djava.net.preferIPv4Stack: false
+ 2022-11-28 11:31:16,306 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv6Addresses: false
+ 2022-11-28 11:31:16,748 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+ 2022-11-28 11:31:16,754 DEBUG [Forwarding newSession on session null to remote] NetUtil:187 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+ 2022-11-28 11:31:17,019 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: d8:fc:93:ff:fe:b5:f5:e5 (auto-detected)
+ 2022-11-28 11:31:17,113 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+ 2022-11-28 11:31:17,114 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+ 2022-11-28 11:31:17,115 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@38b6fcfa
+ 2022-11-28 11:31:17,165 DEBUG [AsyncHttpClient-1-2] Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+ 2022-11-28 11:31:17,166 DEBUG [AsyncHttpClient-1-2] Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+ 2022-11-28 11:31:17,166 DEBUG [AsyncHttpClient-1-2] Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+ 2022-11-28 11:31:17,167 DEBUG [AsyncHttpClient-1-2] Recycler:106 - -Dio.netty.recycler.ratio: 8
+ 2022-11-28 11:31:17,167 DEBUG [AsyncHttpClient-1-2] Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+ 2022-11-28 11:31:19,237 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+ 2022-11-28 11:31:19,528 DEBUG [TestNG-test=BankingApp Test-1] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x9cebb62b5edc2b75
+ 2022-11-28 11:31:26,988  INFO [TestNG-test=BankingApp Test-2] ebanking:21 - URL is opened
+ 2022-11-28 11:31:27,550  INFO [TestNG-test=BankingApp Test-2] ebanking:26 - Password is entered
+ 2022-11-28 11:31:40,058  INFO [TestNG-test=BankingApp Test-2] ebanking:34 - Login is pass - test
+ 2022-11-28 11:31:40,435 DEBUG [main] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:31:40,438 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+ 2022-11-28 11:31:40,442 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+ 2022-11-28 11:31:40,442 DEBUG [main] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+ 2022-11-28 11:31:40,941 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:31:40,945 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+ 2022-11-28 11:31:40,946 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+ 2022-11-28 11:31:40,947 DEBUG [main] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+ 2022-11-28 11:31:40,960 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:31:40,969 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+ 2022-11-28 11:31:40,972 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+ 2022-11-28 11:31:40,973 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+ 2022-11-28 11:31:41,060 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:31:41,061 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+ 2022-11-28 11:31:41,062 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+ 2022-11-28 11:31:41,063 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+ 2022-11-28 11:31:41,093 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:31:41,109 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+ 2022-11-28 11:31:41,111 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+ 2022-11-28 11:31:41,111 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+ 2022-11-28 11:31:41,142 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:31:41,143 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+ 2022-11-28 11:31:41,146 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+ 2022-11-28 11:31:41,147 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+ 2022-11-28 11:31:41,235 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2022-11-28 11:31:41,242 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:31:41,244 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+ 2022-11-28 11:31:41,245 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+ 2022-11-28 11:31:41,246 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+ 2022-11-28 11:31:41,283 DEBUG [main] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:31:41,284 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+ 2022-11-28 11:31:41,289 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+ 2022-11-28 11:31:41,290 DEBUG [main] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+ 2022-11-28 11:31:41,331 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:31:41,333 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+ 2022-11-28 11:31:41,334 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+ 2022-11-28 11:31:41,338 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+ 2022-11-28 11:31:41,345 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:31:41,347 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+ 2022-11-28 11:31:41,357 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+ 2022-11-28 11:31:41,360 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+ 2022-11-28 11:31:41,412 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:31:41,414 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+ 2022-11-28 11:31:41,415 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+ 2022-11-28 11:31:41,416 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+ 2022-11-28 11:50:39,787 DEBUG [TestNG-test=BankingApp Test-2] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+ 2022-11-28 11:50:39,808 DEBUG [TestNG-test=BankingApp Test-2] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+ 2022-11-28 11:50:39,809 DEBUG [TestNG-test=BankingApp Test-2] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+ 2022-11-28 11:50:39,822 DEBUG [TestNG-test=BankingApp Test-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7e1fab19
+ 2022-11-28 11:50:39,892 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+ 2022-11-28 11:50:39,893 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent0:954 - Java version: 11
+ 2022-11-28 11:50:39,905 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+ 2022-11-28 11:50:39,907 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+ 2022-11-28 11:50:39,910 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent0:202 - java.nio.Buffer.address: available
+ 2022-11-28 11:50:39,921 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+ 2022-11-28 11:50:39,923 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+ 2022-11-28 11:50:39,927 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @773efe8e
+ 2022-11-28 11:50:39,934 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+ 2022-11-28 11:50:39,935 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent:1103 - sun.misc.Unsafe: available
+ 2022-11-28 11:50:39,939 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent:1205 - maxDirectMemory: 2124414976 bytes (maybe)
+ 2022-11-28 11:50:39,940 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent:1224 - -Dio.netty.tmpdir: C:\Windows\TEMP (java.io.tmpdir)
+ 2022-11-28 11:50:39,941 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent:1303 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+ 2022-11-28 11:50:39,994 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent:1063 - Platform: Windows
+ 2022-11-28 11:50:39,997 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+ 2022-11-28 11:50:39,998 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+ 2022-11-28 11:50:40,000 DEBUG [TestNG-test=BankingApp Test-2] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+ 2022-11-28 11:50:40,002 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+ 2022-11-28 11:50:40,017 DEBUG [TestNG-test=BankingApp Test-2] PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+ 2022-11-28 11:50:40,081 DEBUG [TestNG-test=BankingApp Test-2] InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+ 2022-11-28 11:50:40,082 DEBUG [TestNG-test=BankingApp Test-2] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+ 2022-11-28 11:50:40,703 DEBUG [TestNG-test=BankingApp Test-2] JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+ 2022-11-28 11:50:40,703 DEBUG [TestNG-test=BankingApp Test-2] JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+ 2022-11-28 11:50:40,766 DEBUG [TestNG-test=BankingApp Test-2] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+ 2022-11-28 11:50:40,787 DEBUG [TestNG-test=BankingApp Test-2] NioEventLoop:106 - -Dio.netty.noKeySetOptimization: false
+ 2022-11-28 11:50:40,791 DEBUG [TestNG-test=BankingApp Test-2] NioEventLoop:107 - -Dio.netty.selectorAutoRebuildThreshold: 512
+ 2022-11-28 11:50:40,992 DEBUG [TestNG-test=BankingApp Test-2] PooledByteBufAllocator:155 - -Dio.netty.allocator.numHeapArenas: 8
+ 2022-11-28 11:50:40,993 DEBUG [TestNG-test=BankingApp Test-2] PooledByteBufAllocator:156 - -Dio.netty.allocator.numDirectArenas: 8
+ 2022-11-28 11:50:40,995 DEBUG [TestNG-test=BankingApp Test-2] PooledByteBufAllocator:158 - -Dio.netty.allocator.pageSize: 8192
+ 2022-11-28 11:50:40,999 DEBUG [TestNG-test=BankingApp Test-2] PooledByteBufAllocator:163 - -Dio.netty.allocator.maxOrder: 11
+ 2022-11-28 11:50:41,001 DEBUG [TestNG-test=BankingApp Test-2] PooledByteBufAllocator:167 - -Dio.netty.allocator.chunkSize: 16777216
+ 2022-11-28 11:50:41,002 DEBUG [TestNG-test=BankingApp Test-2] PooledByteBufAllocator:168 - -Dio.netty.allocator.smallCacheSize: 256
+ 2022-11-28 11:50:41,006 DEBUG [TestNG-test=BankingApp Test-2] PooledByteBufAllocator:169 - -Dio.netty.allocator.normalCacheSize: 64
+ 2022-11-28 11:50:41,012 DEBUG [TestNG-test=BankingApp Test-2] PooledByteBufAllocator:170 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+ 2022-11-28 11:50:41,017 DEBUG [TestNG-test=BankingApp Test-2] PooledByteBufAllocator:171 - -Dio.netty.allocator.cacheTrimInterval: 8192
+ 2022-11-28 11:50:41,018 DEBUG [TestNG-test=BankingApp Test-2] PooledByteBufAllocator:172 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+ 2022-11-28 11:50:41,020 DEBUG [TestNG-test=BankingApp Test-2] PooledByteBufAllocator:173 - -Dio.netty.allocator.useCacheForAllThreads: true
+ 2022-11-28 11:50:41,020 DEBUG [TestNG-test=BankingApp Test-2] PooledByteBufAllocator:174 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+ 2022-11-28 11:50:41,065 DEBUG [TestNG-test=BankingApp Test-2] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+ 2022-11-28 11:50:41,067 DEBUG [TestNG-test=BankingApp Test-2] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+ 2022-11-28 11:50:41,068 DEBUG [TestNG-test=BankingApp Test-2] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+ 2022-11-28 11:50:42,551 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 3260 (auto-detected)
+ 2022-11-28 11:50:42,558 DEBUG [Forwarding newSession on session null to remote] NetUtil:135 - -Djava.net.preferIPv4Stack: false
+ 2022-11-28 11:50:42,559 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv6Addresses: false
+ 2022-11-28 11:50:43,170 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+ 2022-11-28 11:50:43,173 DEBUG [Forwarding newSession on session null to remote] NetUtil:187 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+ 2022-11-28 11:50:43,891 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: d8:fc:93:ff:fe:b5:f5:e5 (auto-detected)
+ 2022-11-28 11:50:44,173 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+ 2022-11-28 11:50:44,175 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+ 2022-11-28 11:50:44,175 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@75f597da
+ 2022-11-28 11:50:44,237 DEBUG [AsyncHttpClient-1-2] Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+ 2022-11-28 11:50:44,238 DEBUG [AsyncHttpClient-1-2] Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+ 2022-11-28 11:50:44,239 DEBUG [AsyncHttpClient-1-2] Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+ 2022-11-28 11:50:44,239 DEBUG [AsyncHttpClient-1-2] Recycler:106 - -Dio.netty.recycler.ratio: 8
+ 2022-11-28 11:50:44,240 DEBUG [AsyncHttpClient-1-2] Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+ 2022-11-28 11:50:47,785 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+ 2022-11-28 11:50:48,136 DEBUG [TestNG-test=BankingApp Test-2] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0xce30df92e7db08df
+ 2022-11-28 11:50:56,351  INFO [TestNG-test=BankingApp Test-2] ebanking:21 - URL is opened
+ 2022-11-28 11:50:56,813  INFO [TestNG-test=BankingApp Test-2] ebanking:26 - Password is entered
+ 2022-11-28 11:51:03,787  INFO [TestNG-test=BankingApp Test-2] ebanking:34 - Login is pass - test
+ 2022-11-28 11:51:04,171 DEBUG [main] cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:51:04,174 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+ 2022-11-28 11:51:04,201 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+ 2022-11-28 11:51:04,202 DEBUG [main] cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+ 2022-11-28 11:51:04,878 DEBUG [main] cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:51:04,881 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+ 2022-11-28 11:51:04,883 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+ 2022-11-28 11:51:04,884 DEBUG [main] cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+ 2022-11-28 11:51:04,890 DEBUG [main] cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:51:04,891 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+ 2022-11-28 11:51:04,894 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+ 2022-11-28 11:51:04,895 DEBUG [main] cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+ 2022-11-28 11:51:04,911 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:51:04,913 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+ 2022-11-28 11:51:04,914 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+ 2022-11-28 11:51:04,965 DEBUG [main] cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+ 2022-11-28 11:51:04,994 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:51:04,998 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+ 2022-11-28 11:51:05,003 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+ 2022-11-28 11:51:05,003 DEBUG [main] cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+ 2022-11-28 11:51:05,072 DEBUG [main] cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:51:05,073 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+ 2022-11-28 11:51:05,074 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+ 2022-11-28 11:51:05,075 DEBUG [main] cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+ 2022-11-28 11:51:05,106 DEBUG [main] cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+ 2022-11-28 11:51:05,109 DEBUG [main] cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:51:05,116 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+ 2022-11-28 11:51:05,117 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+ 2022-11-28 11:51:05,119 DEBUG [main] cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+ 2022-11-28 11:51:05,132 DEBUG [main] cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:51:05,133 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+ 2022-11-28 11:51:05,134 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+ 2022-11-28 11:51:05,135 DEBUG [main] cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+ 2022-11-28 11:51:05,158 DEBUG [main] cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:51:05,160 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+ 2022-11-28 11:51:05,170 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+ 2022-11-28 11:51:05,177 DEBUG [main] cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+ 2022-11-28 11:51:05,228 DEBUG [main] cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:51:05,229 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+ 2022-11-28 11:51:05,233 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+ 2022-11-28 11:51:05,237 DEBUG [main] cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+ 2022-11-28 11:51:05,271 DEBUG [main] cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+ 2022-11-28 11:51:05,272 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+ 2022-11-28 11:51:05,273 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+ 2022-11-28 11:51:05,274 DEBUG [main] cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
  

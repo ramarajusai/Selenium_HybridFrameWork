@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LoginData.xlsx&apos; to &apos;inetBanking_v11/src/test/java/com.inetBanking_v11.testData&apos;&#x0D;&#x0A;- Original project: &apos;inetBankingV1&apos;&#x0D;&#x0A;- Destination element: &apos;inetBanking_v11/src/test/java/com.inetBanking_v11.testData&apos;&#x0D;&#x0A;- Original element: &apos;LoginData.xlsx&apos;" description="Copy file" destination="=inetBanking_v11/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.inetBanking_v11.testData" element1="src/test/java/com/inetBanking/testData/LoginData.xlsx" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1669355916781" units="0" version="1.0"/>
+</session>
