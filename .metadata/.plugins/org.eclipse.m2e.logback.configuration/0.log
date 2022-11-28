@@ -4834,3 +4834,5 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.co
 2022-11-28 11:29:45,529 [Worker-60: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.maven.shared:maven-shared-utils:3.3.4
 2022-11-28 11:29:45,916 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-28 11:29:45,917 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\eclipse-workspace\inetBanking_v11\src\main\resources
+2022-11-28 11:29:45,918 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-28 11:29:45,918 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\eclipse-workspace\inetBanking_v11\src\test\resources
